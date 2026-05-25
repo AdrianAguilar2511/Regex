@@ -1,0 +1,14 @@
+
+
+Regex MUY usados
+Regular expressions
+
+pattern = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+
+^                inicio
+[\w\.-]+         usuario
+@                arroba
+[\w\.-]+         dominio
+\.               punto
+\w+              extensión
+$                final
